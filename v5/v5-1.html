@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <!--<link rel="stylesheet" href="../dist/css/swiper.min.css">-->
+    <link rel="stylesheet" href="css/v5-1.css">
+    <link rel="stylesheet" href="css/v5-1-other.css">
+    <!-- Demo styles -->
+
+</head>
+<body>
+<div class="header">
+    <div class="header-flower">
+        <img src="picture/v5-1/header1.png" alt="">
+    </div>
+    <div class="head-free">
+        <img src="picture/v5-1/head-free.png" alt="">
+    </div>
+    <div class="header-h1">
+        <h1>Lucky Store</h1>
+    </div>
+    <div class="header-line"></div>
+    <div class="header-h4"><h4>E-COMMERCE   UI  PACK</h4></div>
+</div>
+<div class="navigation">
+<div class="navigation-img">
+    <img src="picture/v5-1/navigation.png" alt="">
+</div>
+    <ul>
+        <li><a href="">MEN</a></li>
+        <li><a href="">WOMEN</a></li>
+        <li><a href="">SALE!</a></li>
+        <li><a href="">INFO</a></li>
+        <li><a href="">CONTACTS</a></li>
+    </ul>
+    <div class="navigation-other"><a href=""><img src="picture/v5-1/navigation1.png" alt=""></a></div>
+    <div class="navigation-other"><a href=""><img src="picture/v5-1/navigation2.png" alt=""></a></div>
+    <div class="navigation-other"><a href=""><img src="picture/v5-1/navigation3.png" alt=""></a></div>
+</div>
+
+
+<!-- Swiper -->
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+        <div class="swiper-slide">Slide 10</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+<div class="btn">
+<div class="btn-1">
+    <button class="btn-1-1" id="btn1"><p>Lucky Button</p></button>
+    <button class="btn-1-1" id="btn2"><p>Lucky Button</p></button>
+    <button class="btn-1-1" id="btn3"><p>Lucky Button</p></button>
+    <button class="btn-1-1" id="btn4"><p>Lucky Button</p></button>
+    <button class="btn-1-1" id="btn5"><p>Hover Button</p></button>
+    <button class="btn-1-1" id="btn6"><p>Hover Button</p></button>
+    <button class="btn-1-1" id="btn7"><p>Hover Button</p></button>
+    <button class="btn-1-1" id="btn8"><p>Hover Button</p></button>
+    <button class="btn-1-1" id="btn9"><p>Pressed Button</p></button>
+    <button class="btn-1-1" id="btn10"><p>Pressed Button</p></button>
+    <button class="btn-1-1" id="btn11"><p>Pressed Button</p></button>
+    <button class="btn-1-1" id="btn12"><p>Pressed Button</p></button>
+</div>
+    <div class="btn-2">
+        <div class="btn-2-1">
+            <div class="btn-2-1-1" id="input1"><input type="checkbox" id="check1" disabled="true">Unchecked Disabled</div>
+            <div class="btn-2-1-1" id="input2"><input type="radio" id="radio1" disabled="true">Radio Off Disabled</div>
+            <div class="btn-2-1-1" id="input3"><input type="checkbox" id="check2" disabled="true" checked="checked">checked Disabled</div>
+            <div class="btn-2-1-1" id="input4"><input type="radio" id="radio2" disabled="true" checked="checked">Radio Off Disabled</div>
+            <div class="btn-2-1-1" id="input5"><input type="checkbox" id="check3">Checkbox Unchecked</div>
+            <div class="btn-2-1-1" id="input6"><input type="radio" id="radio3">Radio Off</div>
+            <div class="btn-2-1-1" id="input7"><input type="checkbox" id="check4" checked="checked">Checkbox Hover</div>
+            <div class="btn-2-1-1" id="input8"><input type="radio" id="radio4" checked="checked">Radio Hover</div>
+            <div class="btn-2-1-1" id="input9"><input type="checkbox" id="check5" onclick="check5()">Checkbox Checked</div>
+            <div class="btn-2-1-1" id="input10"><input type="radio" id="radio5" onclick="radio5()">Radio On</div>
+        </div>
+        <div class="btn2-2">
+            <input type="text" class="input1" value="Input Static" style="height: 35px;width: 100%;border-radius: 5px;border:2px solid rgb(215,215,215)" readonly="readonly">
+            <input type="text" class="input1" id="input-yes" value="Input Success" style="height: 35px;width: 100%;border-radius: 5px;border: 2px solid rgb(27,184,105);margin-top: 20px">
+            <input type="text" class="input1" id="input-no" value="Input Error" style="height: 35px;width: 100%;border-radius: 5px;border: 2px solid rgb(224,85,67);margin-top: 20px">
+        </div>
+        <div class="btn2-3">
+            
+        </div>
+        <div class="btn2-4">
+            <div class="btn2-4-1">
+                <div class="demo1" id="t1">
+                    <em>&#9670;</em>
+                    <span>&#9670;</span>
+                    <p>Curiouser and curiouser!</p>
+                </div>
+            </div>
+            <div class="btn2-4-1">
+                <div class="demo1" id="t2">
+                         <em>&#9670;</em>
+                        <span>&#9670;</span>
+                    <p>Curiouser and curiouser!</p>
+                 </div>
+            </div>
+            <div class="btn2-4-1">
+                <div class="demo1" id="t3">
+                    <em>&#9670;</em>
+                    <span>&#9670;</span>
+                    <p>Curiouser and curiouser!</p>
+                 </div>
+            </div>
+            <div class="btn2-4-1" id="last-btn2-4-1">
+                 <div class="demo1" id="t4">
+                     <em>&#9670;</em>
+                     <span>&#9670;</span>
+                     <p>Curiouser and curiouser!</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="percent">
+    <div class="percent-img" style="background-image: url('picture/v5-1/percent1.png')"><p>-10%</p></div>
+    <div class="percent-img" style="background-image: url('picture/v5-1/percent2.png')"><p>-20%</p></div>
+    <div class="percent-img" style="background-image: url('picture/v5-1/percent3.png')"><p>-30%</p></div>
+    <div class="percent-img" style="background-image: url('picture/v5-1/percent4.png')"><p>-40%</p></div>
+    <div class="percent-img" style="background-image: url('picture/v5-1/percent5.png')"><p>-50%</p></div>
+    <div class="percent-img" style="background-image: url('picture/v5-1/percent6.png')"><p>-60%</p></div>
+    <div class="percent-img" style="background-image: url('picture/v5-1/percent7.png')"><p>-70%</p></div>
+    <div class="percent-img" id="percent-last" style="background-image: url('picture/v5-1/percent8.png')"><p>-80%</p></div>
+</div>
+<div class="last-pre">
+    <div class="last-pre-pre">
+        <button style="width: 55px;height: 55px;background-color: white;border-radius: 5px;border: 1px solid white"><p style="font-size:xx-large;margin-top: 9px;margin-left: 9px;color: rgb(179,179,179)"><</p></button>
+    </div>
+    <div class="last-in">
+        <div class="line" style="float: left"></div>
+       <h1 style="display: block;width: 164px;position: absolute;left: 392px;top: -12px;color: rgb(48,48,48);">Best Sellers</h1>
+        <div class="line" style="float: right"></div>
+    </div>
+    <div class="last-pre-next">
+        <button style="width: 55px;height: 55px;background-color: white;border-radius: 5px;border: 1px solid white;padding: 0px"><p style="font-size:xx-large;margin-top: 9px;margin-left: 19px;color: rgb(179,179,179)">></p></button>
+    </div>
+</div>
+<div class="last">
+    <div class="last-1">
+        <div class="last-1-img"><div class="sale"></div><img src="picture/v5-1/last.png" alt=""></div>
+        <div class="last-1-text"><h4 style="color:#5e5e5e"> &nbsp;&nbsp;3 Pics Ballet Dancers</h4></div>
+        <div class="money"> <p style="position: absolute;text-align: left;margin: 0px">&nbsp;&nbsp;$55</p> <p style="font-size: xx-small;position: absolute;text-align: right;margin: 0px;left: 47px;top: 11px;text-decoration:line-through">$70</p></div>
+        <button class="btn-money">ADD TO CART</button>
+    </div>
+    <div class="last-1">
+        <div class="last-1-img" style="background-image: url('picture/v5-1/last.png')"><div class="eye"></div></div>
+        <div class="last-1-text"><h4 style="color:#5e5e5e"> &nbsp;&nbsp;Artistic Flowers Art</h4></div>
+        <div class="money"> <p style="position: absolute;text-align: left;margin: 0px">&nbsp;&nbsp;$155</p></div>
+        <button class="btn-money" style="background-color: rgb(39,153,201);color: white">ADD TO CART</button>
+    </div>
+    <div class="last-1">
+        <div class="last-1-img"><div class="sale" style="background-image: url('picture/v5-1/hot.png')"></div><img src="picture/v5-1/last.png" alt=""></div>
+        <div class="last-1-text"><h4 style="color:#5e5e5e"> &nbsp;&nbsp;Abstract Flowers Moder...</h4></div>
+        <div class="money"> <p style="position: absolute;text-align: left;margin: 0px">&nbsp;&nbsp;$129</p></div>
+        <button class="btn-money">ADD TO CART</button>
+    </div>
+    <div class="last-1" id="last-last" style="margin-right: 0px">
+        <div class="last-1-img"><div class="sale" style="background-image: url('picture/v5-1/new.png')"></div><img src="picture/v5-1/last.png" alt=""></div>
+        <div class="last-1-text"><h4 style="color:#5e5e5e"> &nbsp;&nbsp;The Purple Lily Print</h4></div>
+        <div class="money"><p style="position: absolute;text-align: left;margin: 0px">&nbsp;&nbsp;$99</p></div>
+        <button class="btn-money">ADD TO CART</button>
+    </div>
+</div>
+<div class="rea"></div>
+<!-- Swiper JS -->
+<script src="js/v5-1.js"></script>
+
+<!-- Include plugin after Swiper -->
+<script>
+    //js自定义复选框图案
+    var i=1;
+    var j=1;
+    function check5(){
+        var a = document.getElementById("check5");
+//        console.log(i);
+        if(i%2==0){
+//            console.log(i);
+            a.style.backgroundImage="url(picture/v5-1/勾.jpg)";
+            i++;
+//            console.log(i);
+        }
+        else
+        {
+//            console.log("h"+i);
+            a.style.backgroundImage="url(picture/v5-1/empty.png)";
+            i++;
+//            console.log("h"+i);
+        }
+    }
+function radio5(){
+    var b=document.getElementById("radio5");
+    if(j%2==0){
+        b.style.backgroundImage="url(picture/v5-1/yuan2.png)";
+        j++;
+        console.log(j);
+  }
+    else
+    {
+     b.style.backgroundImage="url(picture/v5-1/yuan1.png)";
+        j++;
+        console.log("h"+j);
+}
+}
+
+
+    /* ========
+     Debugger plugin, simple demo plugin to console.log some of callbacks
+     ======== */
+    Swiper.prototype.plugins.debugger = function (swiper, params) {
+        if (!params) return;
+        // Need to return object with properties that names are the same as callbacks
+        return {
+            onInit: function (swiper){
+                console.log('onInit');
+            },
+            onClick: function (swiper, e) {
+                console.log('onClick');
+            },
+            onTap: function (swiper, e) {
+                console.log('onTap');
+            },
+            onDoubleTap: function (swiper, e) {
+                console.log('onDoubleTap');
+            },
+            onSliderMove: function (swiper, e) {
+                console.log('onSliderMove');
+            },
+            onSlideChangeStart: function (swiper) {
+                console.log('onSlideChangeStart');
+            },
+            onSlideChangeEnd: function (swiper) {
+                console.log('onSlideChangeEnd');
+            },
+            onTransitionStart: function (swiper) {
+                console.log('onTransitionStart');
+            },
+            onTransitionEnd: function (swiper) {
+                console.log('onTransitionEnd');
+            },
+            onReachBeginning: function (swiper) {
+                console.log('onReachBeginning');
+            },
+            onReachEnd: function (swiper) {
+                console.log('onReachEnd');
+            }
+        };
+    };
+</script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        // Enable debugger
+        debugger: true
+    });
+</script>
+</body>
+</html>
