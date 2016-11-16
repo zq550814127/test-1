@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+table
+{
+	border-collapse:collapse;}
+*/
+.d0
+{
+	border:1px solid #000;
+	margin:10px;
+	background-color:#CCC;
+	width:1300px;
+	height:1300px;
+	text-align:center;
+	
+	}
+.D
+{
+	border:1px solid #000;
+	margin:10px auto;
+	width:480px;
+	background-color:#FFF;
+	}
+.d
+{
+	border:1px solid #000;
+	margin:10px;
+	padding:20px;
+	height:100px;
+	width:140px;
+	background-color:#FFF;
+	float:left;
+	}
+.d1
+{
+	border:1px solid #000;
+	margin:10px;
+	padding:20px;
+	width:140px;
+	background-color:#FFF;
+	float:right;
+	}
+
+body{
+	width:1300px;
+	height:1300px;
+	margin:20px;}
+	

@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.s0
+{
+	margin:0px;
+	width:400px;
+	height:300px;
+	border:0px solid #FFF;
+	padding:0px;
+	//border-radius:50px;
+	background-color:#960;
+	position:absolute;
+	top:200px;
+	left:482px;
+	}
+.s1
+{
+	margin:0px;
+	width:130px;
+	height:130px;
+	border-bottom-right-radius:130px;
+	background-color:#FF0;}
+
+
+.s2
+{
+	margin:0px;
+	width:130px;
+	height:130px;
+	position:relative;
+	top:40px;
+	left:270px;
+	background-color:#FF0;
+	border-top-left-radius:130px;
+}
+	
